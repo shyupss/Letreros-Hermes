@@ -88,7 +88,7 @@ header{
 .service-card{
     font-size: clamp(1rem, 0.7vw, 2rem);
     background: white;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.05);
     transition: 0.3s ease;
@@ -206,6 +206,16 @@ header{
     }
 }
 
+@media (max-width: 600px) {
+    .service-card{
+    font-size: clamp(1rem, 0.7vw, 2rem);
+    background: white;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+}
 
 /* carrusel */
 @media (max-width: 768px) {
