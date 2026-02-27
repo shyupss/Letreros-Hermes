@@ -206,11 +206,6 @@ header{
     }
 }
 
-@media (max-width: 600px) {
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-}
 
 /* carrusel */
 @media (max-width: 768px) {
